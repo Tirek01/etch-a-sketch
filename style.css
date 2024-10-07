@@ -1,0 +1,15 @@
+.container {
+    width: 960px;
+    height: 960px;
+    border: 2px solid black;
+}
+.container > .gridRow {
+    display: flex;
+}
+.gridElement {
+    flex: auto;
+    opacity: 0;
+}
+.color {
+    background-color: aqua;
+}
